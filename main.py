@@ -29,15 +29,17 @@ def format_passage(description):
     return description
 
 def render(current):
+    print("\n\n")
     print(current["name"])
     print(current["text"])
+    print("\n")
     
 
 def update(current, game_desc, choice):
     if choice == "":
         return current
     for l in current["links"]:
-        if l["name"] == choice:
+        if l["name"].lower() == choice:
             current = find_passage(game_desc, l["pid"])
             return current
     print("I don't understand. Please try again.")
@@ -46,6 +48,7 @@ def update(current, game_desc, choice):
 
 def get_input(current):
     choice = input("What do you want to do? (type quit to exit) ")
+    choice = choice.lower().strip()
     return choice
 
 
@@ -59,9 +62,7 @@ def main():
         render(current)
         choice = get_input(current)
 
-    print("Thanks for playing!")
-
-
+    print("Thanks for playing :)")
 
 
 if __name__ == "__main__":

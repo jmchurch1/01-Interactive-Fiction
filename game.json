@@ -1,294 +1,294 @@
 {
-    "passages": [
-      {
-        "text": "You are laying in a field when suddenly a UFO comes out of the sky. The tractor beam starts.\n\n[[Run Away -> Home]]\n[[Stay in tractor beam -> UFO]]",
-        "links": [
-          {
-            "name": "Run Away ",
-            "link": " Home",
-            "pid": "2"
-          },
-          {
-            "name": "Stay in tractor beam ",
-            "link": " UFO",
-            "pid": "3"
-          }
-        ],
-        "name": "Peaceful Field",
-        "pid": "1",
-        "position": {
-          "x": "457",
-          "y": "43"
+  "passages": [
+    {
+      "text": "You are laying in a field when suddenly a UFO comes out of the sky. The tractor beam starts.\n\n[[run away->Home]]\n[[stay in tractor beam->UFO]]",
+      "links": [
+        {
+          "name": "run away",
+          "link": "Home",
+          "pid": "2"
+        },
+        {
+          "name": "stay in tractor beam",
+          "link": "UFO",
+          "pid": "3"
         }
-      },
-      {
-        "text": "You run away from the tractor beam barely making it out. You turn towards your home. Once you get in you fall asleep. The next day you wake up thinking that it must have all been a dream.\n\n[[Turn on the TV -> Watching TV]]\n[[Make breakfast -> Pondering Events]]",
-        "links": [
-          {
-            "name": "Turn on the TV ",
-            "link": " Watching TV",
-            "pid": "4"
-          },
-          {
-            "name": "Make breakfast ",
-            "link": " Pondering Events",
-            "pid": "5"
-          }
-        ],
-        "name": " Home",
-        "pid": "2",
-        "position": {
-          "x": "255",
-          "y": "104"
-        }
-      },
-      {
-        "text": "You decide, against your better judgement. To stay in the tractor beam. You are pulled up to the ship where you are greeted by an assortment of aliens. Some of them look human, but others look like blobs.\n\n[[say hello -> Disection Table]]\n[[cower in fear -> Disection Table]] ",
-        "links": [
-          {
-            "name": "say hello ",
-            "link": " Disection Table",
-            "pid": "15"
-          },
-          {
-            "name": "cower in fear ",
-            "link": " Disection Table",
-            "pid": "15"
-          }
-        ],
-        "name": " UFO",
-        "pid": "3",
-        "position": {
-          "x": "642",
-          "y": "165"
-        }
-      },
-      {
-        "text": "You turn on the TV and the local news channel says \"Breaking News: thousands of abductions all across the country\".\n\n[[Call 911 -> Phone Call]]\n[[Make Breakfast -> Pondering Events]] ",
-        "links": [
-          {
-            "name": "Call 911 ",
-            "link": " Phone Call",
-            "pid": "6"
-          },
-          {
-            "name": "Make Breakfast ",
-            "link": " Pondering Events",
-            "pid": "5"
-          }
-        ],
-        "name": " Watching TV",
-        "pid": "4",
-        "position": {
-          "x": "120",
-          "y": "189"
-        }
-      },
-      {
-        "text": "You make breakfast, pondering over the vents that you thought were a dream. You think about your options.\n\n[[Call 911 -> Phone Call]] \n[[Run away to family in the country side -> Family Cabin]]",
-        "links": [
-          {
-            "name": "Call 911 ",
-            "link": " Phone Call",
-            "pid": "6"
-          },
-          {
-            "name": "Run away to family in the country side ",
-            "link": " Family Cabin",
-            "pid": "8"
-          }
-        ],
-        "name": " Pondering Events",
-        "pid": "5",
-        "position": {
-          "x": "262",
-          "y": "240"
-        }
-      },
-      {
-        "text": "You call 911 to tell the police that you were almost abducted by Aliens the night before. They ask you to come to the station.\n\n[[Go to the Police Station -> Police Station]]\n[[Run away to family in the country side -> Family Cabin]]",
-        "links": [
-          {
-            "name": "Go to the Police Station ",
-            "link": " Police Station",
-            "pid": "7"
-          },
-          {
-            "name": "Run away to family in the country side ",
-            "link": " Family Cabin",
-            "pid": "8"
-          }
-        ],
-        "name": " Phone Call",
-        "pid": "6",
-        "position": {
-          "x": "97",
-          "y": "300"
-        }
-      },
-      {
-        "text": "You head to the police station. You go to the back room where an officer asks you to give a statement.\n\n[[Calmly go over the events of last night ->Secret Facility]]\n[[Frantically go over the events of last night -> Insane Asylum (Police)]] ",
-        "links": [
-          {
-            "name": "Calmly go over the events of last night ",
-            "link": "Secret Facility",
-            "pid": "11"
-          },
-          {
-            "name": "Frantically go over the events of last night ",
-            "link": " Insane Asylum (Police)",
-            "pid": "12"
-          }
-        ],
-        "name": " Police Station",
-        "pid": "7",
-        "position": {
-          "x": "44",
-          "y": "411"
-        }
-      },
-      {
-        "text": "You go to the cabin that your family owns in the country side. They are happy, but surprised to see you there. They ask you why you came without letting them know.\n\n[[Tell them the truth -> Insane Asylum (Parents)]]\n[[Say you missed them -> End of The World]]",
-        "links": [
-          {
-            "name": "Tell them the truth ",
-            "link": " Insane Asylum (Parents)",
-            "pid": "9"
-          },
-          {
-            "name": "Say you missed them ",
-            "link": " End of The World",
-            "pid": "10"
-          }
-        ],
-        "name": " Family Cabin",
-        "pid": "8",
-        "position": {
-          "x": "353",
-          "y": "375"
-        }
-      },
-      {
-        "text": "You tell your parents that you were almost abducted by aliens, but you had made the fatal mistake of forgetting your parents hate alien stories. Your dad knocks you out and ties you up, then calls a doctor that they know. The doctor diagnoses you as clinically insane and locks you up in an insane asylum.\n\nYou stay in custody for two weeks until suddenly you hear tornado sirens in the distance. There is a bright light and the insane asylum that you were in is blown up along with the rest of the world.\n\n[[wake up ->Peaceful Field]] ",
-        "links": [
-          {
-            "name": "wake up ",
-            "link": "Peaceful Field",
-            "pid": "1"
-          }
-        ],
-        "name": " Insane Asylum (Parents)",
-        "pid": "9",
-        "position": {
-          "x": "286",
-          "y": "485"
-        }
-      },
-      {
-        "text": "You tell your parents that you just missed them and wanted to see them. They say that they are happy to have you. You stay with them for two weeks, until one day you walk outside and see hundreds of UFOs descending from the sky. \n\nThere is a bright light and then suddenly the world is gone.\n\n[[wake up ->Peaceful Field]] ",
-        "links": [
-          {
-            "name": "wake up ",
-            "link": "Peaceful Field",
-            "pid": "1"
-          }
-        ],
-        "name": " End of The World",
-        "pid": "10",
-        "position": {
-          "x": "428",
-          "y": "486"
-        }
-      },
-      {
-        "text": "You recount the details of the previous night carefully. The officer in the room looks at you carefully then leaves the room. An hour later he comes back in with a man in a suit by his side. They put a bag over your head and move you into a car. \n\nOnce you get there the man in the suit says to you, \"Goo Ba Dooba.\"\n\n[[Laugh at his joke -> Prison Cell]]\n[[Run -> Death]]",
-        "links": [
-          {
-            "name": "Laugh at his joke ",
-            "link": " Prison Cell",
-            "pid": "13"
-          },
-          {
-            "name": "Run ",
-            "link": " Death",
-            "pid": "14"
-          }
-        ],
-        "name": "Secret Facility",
-        "pid": "11",
-        "position": {
-          "x": "41",
-          "y": "521"
-        }
-      },
-      {
-        "text": "You frantically recount the events of the previous night. The officer looks at you in a concerned fashion, then leaves the room. An hour later he comes back with a doctor and after many questions they move you to an Insane Asylum.\n\nYou stay in custody for two weeks until suddenly you hear tornado sirens in the distance. There is a bright light and the insane asylum that you were in is blown up along with the rest of the world.\n\n[[wake up ->Peaceful Field]] ",
-        "links": [
-          {
-            "name": "wake up ",
-            "link": "Peaceful Field",
-            "pid": "1"
-          }
-        ],
-        "name": " Insane Asylum (Police)",
-        "pid": "12",
-        "position": {
-          "x": "180",
-          "y": "485"
-        }
-      },
-      {
-        "text": "He smiles after you laugh at his joke, then he pats you on the head. You pass out at the touch of his hand. You wake up later in a prison cell. That man, he must have been an alien. After three days without food or water you succumb to dehydration.\n\n[[wake up ->Peaceful Field]] ",
-        "links": [
-          {
-            "name": "wake up ",
-            "link": "Peaceful Field",
-            "pid": "1"
-          }
-        ],
-        "name": " Prison Cell",
-        "pid": "13",
-        "position": {
-          "x": "26",
-          "y": "643"
-        }
-      },
-      {
-        "text": "Thinking that the man is an alien, you sprint away. You hear a roar from behind you then feel a flash of pain. You fall to the ground dead.\n\n[[wake up ->Peaceful Field]] ",
-        "links": [
-          {
-            "name": "wake up ",
-            "link": "Peaceful Field",
-            "pid": "1"
-          }
-        ],
-        "name": " Death",
-        "pid": "14",
-        "position": {
-          "x": "157",
-          "y": "645"
-        }
-      },
-      {
-        "text": "After seeing you the aliens quickly move and grab you, as if any action you had taken would not have changed their actions. They move you to a disection table and the last thing you see is a mask moved to cover your face.\n\n[[wake up ->Peaceful Field]] ",
-        "links": [
-          {
-            "name": "wake up ",
-            "link": "Peaceful Field",
-            "pid": "1"
-          }
-        ],
-        "name": " Disection Table",
-        "pid": "15",
-        "position": {
-          "x": "627",
-          "y": "361"
-        }
+      ],
+      "name": "Peaceful Field",
+      "pid": "1",
+      "position": {
+        "x": "863",
+        "y": "26.5"
       }
-    ],
-    "name": "Aliens!!",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.11",
-    "ifid": "972B9527-649E-4CF1-9069-E5A153343735"
-  }
+    },
+    {
+      "text": "You run away from the tractor beam barely making it out. You turn towards your home. Once you get in you fall asleep. The next day you wake up thinking that it must have all been a dream.\n\n[[turn on the TV->Watching TV]]\n[[make breakfast->Pondering Events]]",
+      "links": [
+        {
+          "name": "turn on the TV",
+          "link": "Watching TV",
+          "pid": "4"
+        },
+        {
+          "name": "make breakfast",
+          "link": "Pondering Events",
+          "pid": "5"
+        }
+      ],
+      "name": "Home",
+      "pid": "2",
+      "position": {
+        "x": "663",
+        "y": "154.5"
+      }
+    },
+    {
+      "text": "You decide, against your better judgement. To stay in the tractor beam. You are pulled up to the ship where you are greeted by an assortment of aliens. Some of them look human, but others look like blobs.\n\n[[say hello->Disection Table]]\n[[cower in fear->Disection Table]]",
+      "links": [
+        {
+          "name": "say hello",
+          "link": "Disection Table",
+          "pid": "15"
+        },
+        {
+          "name": "cower in fear",
+          "link": "Disection Table",
+          "pid": "15"
+        }
+      ],
+      "name": "UFO",
+      "pid": "3",
+      "position": {
+        "x": "1075",
+        "y": "136.5"
+      }
+    },
+    {
+      "text": "You turn on the TV and the local news channel says \"Breaking News: thousands of abductions all across the country\".\n\n[[call 911->Phone Call]]\n[[make breakfast->Pondering Events]] ",
+      "links": [
+        {
+          "name": "call 911",
+          "link": "Phone Call",
+          "pid": "6"
+        },
+        {
+          "name": "make breakfast",
+          "link": "Pondering Events",
+          "pid": "5"
+        }
+      ],
+      "name": "Watching TV",
+      "pid": "4",
+      "position": {
+        "x": "538",
+        "y": "303.5"
+      }
+    },
+    {
+      "text": "You make breakfast, pondering over the vents that you thought were a dream. You think about your options.\n\n[[call 911->Phone Call]] \n[[go to family->Family Cabin]]",
+      "links": [
+        {
+          "name": "call 911",
+          "link": "Phone Call",
+          "pid": "6"
+        },
+        {
+          "name": "go to family",
+          "link": "Family Cabin",
+          "pid": "7"
+        }
+      ],
+      "name": "Pondering Events",
+      "pid": "5",
+      "position": {
+        "x": "753",
+        "y": "291.5"
+      }
+    },
+    {
+      "text": "You call 911 to tell the police that you were almost abducted by Aliens the night before. They ask you to come to the station.\n\n[[go to the police station->Police Station]]\n[[run away to family->Family Cabin]] ",
+      "links": [
+        {
+          "name": "go to the police station",
+          "link": "Police Station",
+          "pid": "10"
+        },
+        {
+          "name": "run away to family",
+          "link": "Family Cabin",
+          "pid": "7"
+        }
+      ],
+      "name": "Phone Call",
+      "pid": "6",
+      "position": {
+        "x": "402",
+        "y": "483.5"
+      }
+    },
+    {
+      "text": "You go to the cabin that your family owns in the country side. They are happy, but surprised to see you there. They ask you why you came without letting them know.\n\n[[tell them the truth->Insane Asylum (parents)]]\n[[say that you missed them->End of The World]]",
+      "links": [
+        {
+          "name": "tell them the truth",
+          "link": "Insane Asylum (parents)",
+          "pid": "8"
+        },
+        {
+          "name": "say that you missed them",
+          "link": "End of The World",
+          "pid": "9"
+        }
+      ],
+      "name": "Family Cabin",
+      "pid": "7",
+      "position": {
+        "x": "753",
+        "y": "441.5"
+      }
+    },
+    {
+      "text": "You tell your parents that you were almost abducted by aliens, but you had made the fatal mistake of forgetting your parents hate alien stories. Your dad knocks you out and ties you up, then calls a doctor that they know. The doctor diagnoses you as clinically insane and locks you up in an insane asylum.\n\nYou stay in custody for two weeks until suddenly you hear tornado sirens in the distance. There is a bright light and the insane asylum that you were in is blown up along with the rest of the world.\n\n[[wake up->Peaceful Field]] ",
+      "links": [
+        {
+          "name": "wake up",
+          "link": "Peaceful Field",
+          "pid": "1"
+        }
+      ],
+      "name": "Insane Asylum (parents)",
+      "pid": "8",
+      "position": {
+        "x": "678",
+        "y": "591.5"
+      }
+    },
+    {
+      "text": "You tell your parents that you just missed them and wanted to see them. They say that they are happy to have you. You stay with them for two weeks, until one day you walk outside and see hundreds of UFOs descending from the sky. \n\nThere is a bright light and then suddenly the world is gone.\n\n[[wake up->Peaceful Field]] ",
+      "links": [
+        {
+          "name": "wake up",
+          "link": "Peaceful Field",
+          "pid": "1"
+        }
+      ],
+      "name": "End of The World",
+      "pid": "9",
+      "position": {
+        "x": "828",
+        "y": "591.5"
+      }
+    },
+    {
+      "text": "You head to the police station. You go to the back room where an officer asks you to give a statement.\n\n[[calmy go over events->Secret Facility]]\n[[frantically go over events->Insane Asylum (police)]]\n",
+      "links": [
+        {
+          "name": "calmy go over events",
+          "link": "Secret Facility",
+          "pid": "11"
+        },
+        {
+          "name": "frantically go over events",
+          "link": "Insane Asylum (police)",
+          "pid": "12"
+        }
+      ],
+      "name": "Police Station",
+      "pid": "10",
+      "position": {
+        "x": "326",
+        "y": "606.5"
+      }
+    },
+    {
+      "text": "You recount the details of the previous night carefully. The officer in the room looks at you carefully then leaves the room. An hour later he comes back in with a man in a suit by his side. They put a bag over your head and move you into a car. \n\nOnce you get there the man in the suit says to you, \"Goo Ba Dooba.\"\n\n[[laugh at his joke->Prison Cell]]\n[[run->Death]]",
+      "links": [
+        {
+          "name": "laugh at his joke",
+          "link": "Prison Cell",
+          "pid": "13"
+        },
+        {
+          "name": "run",
+          "link": "Death",
+          "pid": "14"
+        }
+      ],
+      "name": "Secret Facility",
+      "pid": "11",
+      "position": {
+        "x": "251",
+        "y": "756.5"
+      }
+    },
+    {
+      "text": "You frantically recount the events of the previous night. The officer looks at you in a concerned fashion, then leaves the room. An hour later he comes back with a doctor and after many questions they move you to an Insane Asylum.\n\nYou stay in custody for two weeks until suddenly you hear tornado sirens in the distance. There is a bright light and the insane asylum that you were in is blown up along with the rest of the world.\n\n[[wake up->Peaceful Field]] ",
+      "links": [
+        {
+          "name": "wake up",
+          "link": "Peaceful Field",
+          "pid": "1"
+        }
+      ],
+      "name": "Insane Asylum (police)",
+      "pid": "12",
+      "position": {
+        "x": "530",
+        "y": "589.5"
+      }
+    },
+    {
+      "text": "He smiles after you laugh at his joke, then he pats you on the head. You pass out at the touch of his hand. You wake up later in a prison cell. That man, he must have been an alien. After three days without food or water you succumb to dehydration.\n\n[[wake up->Peaceful Field]] ",
+      "links": [
+        {
+          "name": "wake up",
+          "link": "Peaceful Field",
+          "pid": "1"
+        }
+      ],
+      "name": "Prison Cell",
+      "pid": "13",
+      "position": {
+        "x": "176",
+        "y": "906.5"
+      }
+    },
+    {
+      "text": "Thinking that the man is an alien, you sprint away. You hear a roar from behind you then feel a flash of pain. You fall to the ground dead.\n\n[[wake up->Peaceful Field]] ",
+      "links": [
+        {
+          "name": "wake up",
+          "link": "Peaceful Field",
+          "pid": "1"
+        }
+      ],
+      "name": "Death",
+      "pid": "14",
+      "position": {
+        "x": "326",
+        "y": "906.5"
+      }
+    },
+    {
+      "text": "After seeing you the aliens quickly move and grab you, as if any action you had taken would not have changed their actions. They move you to a disection table and the last thing you see is a mask moved to cover your face.\n\n[[wake up->Peaceful Field]] ",
+      "links": [
+        {
+          "name": "wake up",
+          "link": "Peaceful Field",
+          "pid": "1"
+        }
+      ],
+      "name": "Disection Table",
+      "pid": "15",
+      "position": {
+        "x": "1075",
+        "y": "286.5"
+      }
+    }
+  ],
+  "name": "Aliens!!!",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.11",
+  "ifid": "14CF304C-6CBB-4BB7-8140-A5829F6CD199"
+}
